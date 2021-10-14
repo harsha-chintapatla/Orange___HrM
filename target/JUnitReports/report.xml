@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="121.911">
+<testcase classname="Add education details" name="To validate the functionality that user is able to add education details" time="18.939">
+<system-out><![CDATA[Given user is on Qualifications module of my info module....................passed
+When user click on add education............................................passed
+And user enters degree and isntitute name...................................passed
+Then user is able to succesfully add education details......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add language" name="To validate the functionality that user is able to add language" time="16.974">
+<system-out><![CDATA[Given user is on Qualifications module of my info module....................passed
+When user click on add language.............................................passed
+And user selects language and fluency and competency........................passed
+Then user is able to succesfully add language...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add work experience" name="To validate the functionality that user is able to add work experience" time="18.951">
+<system-out><![CDATA[Given user is on Qualifications module of my info module....................passed
+When user click on Add work experience......................................passed
+And user enters all the necessary details...................................passed
+Then user is able to succesfully add work experience........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete selected language" name="To validate the functionality that user is able to delete selected language" time="18.643">
+<system-out><![CDATA[Given user is on Qualifications module of my info module....................passed
+When user checks checkbox of any added language.............................passed
+And user clicks on delete...................................................passed
+Then user is able to succesfully delete the corresponding language added....passed
+]]></system-out>
+</testcase>
+<testcase classname="Edit and save personal details" name="To validate the functionality that user is able to edit and save the personal details" time="19.279">
+<system-out><![CDATA[Given user is on personal details module of my info module..................passed
+When user click on edit personal details....................................passed
+And user enters all the required details....................................passed
+Then user is able to succesfully save the details...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate invalid login functionality" name="To validate user is able to login with invalid credentials" time="7.818">
+<system-out><![CDATA[Given Chrome Browser is open................................................passed
+And user is on OrangeHRM login page.........................................passed
+When user enters invalid credentials in "Harsha" and "harsha123" text fields.passed
+Then user is unable to login................................................passed
+And the page displays error message invalid credentials.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate invalid login functionality" name="To validate user is able to login with invalid credentials 2" time="9.3">
+<system-out><![CDATA[Given Chrome Browser is open................................................passed
+And user is on OrangeHRM login page.........................................passed
+When user enters invalid credentials in "admin" and "admin" text fields.....passed
+Then user is unable to login................................................passed
+And the page displays error message invalid credentials.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality" name="To validate user is able to login with valid credentials" time="11.02">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters valid credentials in username and password text fields.....passed
+Then user is able to login successfully.....................................passed
+And user is able to view homepage...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
